@@ -1,5 +1,3 @@
----
-
 ```markdown
 # ✅ To-Do List App
 
@@ -87,8 +85,4 @@ Feel free to modify and distribute it!
 
 ```
 
----
- 
-
-Want me to push this README to your GitHub automatically? 😎
 ```
