@@ -1,16 +1,18 @@
+---
+
 ```markdown
 # ✅ To-Do List App
 
-A simple and efficient To-Do List application built with **Flutter**  to help users organize their daily tasks with ease.  
-Smooth UI, real-time updates, and functionality that keeps productivity fun! 📝✨  
+A simple and efficient To-Do List application built with **Flutter** to help users organize their daily tasks with ease.  
+Smooth UI and features that keep productivity fun! 📝✨
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add new tasks
+- ➕ Add tasks
 - ✏️ Edit tasks
-- ✅ Mark tasks as complete
+- ✅ Mark tasks as complete / incomplete
 - 🗑️ Delete tasks
 - 📱 Responsive & clean UI using Flutter
 
@@ -21,12 +23,13 @@ Smooth UI, real-time updates, and functionality that keeps productivity fun! �
 | Technology | Purpose |
 |-----------|---------|
 | Flutter | UI + App Development |
-| Provider / State Management | Local app state |
-| Dart | Core programming language |
+| Provider (State Management) | App state handling |
+| Dart | Programming language |
 
-
+---
 
 ## 📂 Project Structure
+
 ```
 
 lib/
@@ -41,27 +44,27 @@ lib/
 
 ## 🔧 Setup & Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/todo_list_app.git
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/Shushrutha1/Todo_list_app.git
 ````
 
-2. Install dependencies:
+2️⃣ Install Flutter dependencies
 
-   ```bash
-   flutter pub get
-   ```
+```bash
+flutter pub get
+```
 
-3. Configure Firebase for Android & iOS:
+3️⃣ Configure Firebase (optional if you add backend later)
 
-   * Add your own `google-services.json` (Android)
-   * Add your own `GoogleService-Info.plist` (iOS)
+* Add `google-services.json` in `/android/app`
+* Add `GoogleService-Info.plist` in `/ios/Runner`
 
-4. Run the app:
+4️⃣ Run the project
 
-   ```bash
-   flutter run
-   ```
+```bash
+flutter run
+```
 
 ---
 
@@ -75,13 +78,17 @@ For major changes, please open an issue first to discuss what you'd like to impr
 ## 📜 License
 
 This project is licensed under the **MIT License**.
-Feel free to use and modify it!
+Feel free to modify and distribute it!
+
+---
 
 
 > Stay productive. Stay awesome. ✅🔥
 
 ```
 
+---
+ 
 
-
-
+Want me to push this README to your GitHub automatically? 😎
+```
