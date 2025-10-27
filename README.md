@@ -51,7 +51,7 @@ And either Android Studio or VS Code with Flutter/Dart extensions installed.
 
 flutter create todo_list_app
 cd todo_list_app
-# Replace content of lib/main.dart with the provided code if needed
+Replace content of lib/main.dart with the provided code if needed
 
 
 2️⃣ Add dependency in pubspec.yaml
