@@ -1,130 +1,93 @@
-**📝 Simple Flutter Todo List App**
+# 📝 Simple Flutter Todo List App
 
-A Clean, Persistent Mobile Task Manager built with Dart & Flutter
+A clean, persistent mobile task manager built with **Flutter** & **Dart**.
 
-💡 Overview
+---
 
-This project is a simple, yet robust, Todo List application developed using the Flutter framework and the Dart programming language. The goal was to create a mobile-first task manager that maintains state persistence across app sessions without relying on a remote database.
+## 💡 Overview
 
-Core Features
+This project is a simple, yet robust Todo List application developed using the Flutter framework and the Dart programming language.  
+The goal was to create a **mobile-first task manager** that maintains **state persistence** across app sessions **without a remote database**.
 
-Feature
+---
 
-Implementation Detail
+## ✅ Core Features
 
-Status
+| Feature | Implementation Detail | Status |
+|--------|----------------------|:-----:|
+| CRUD Operations | Add, View, Toggle Completion, Delete tasks | ✅ |
+| Local Persistence | Uses `shared_preferences` to save tasks locally | ✅ |
+| Material Design 3 | Modern, responsive UI | ✅ |
+| Validation | Prevents adding empty tasks | ✅ |
 
-CRUD Operations
+---
 
-Add, View, Toggle Completion, Delete tasks.
+## 🛠️ Technology Stack
 
-✅ Complete
+| Technology | Role |
+|-----------|------|
+| **Flutter 3.x+** | Framework |
+| **Dart 3.x+** | Programming Language |
+| Android Studio / VS Code | Development Environments |
+| `shared_preferences` | Persistent local storage |
 
-Local Persistence
+---
 
-Uses shared_preferences to save tasks locally.
+## 🚀 Getting Started
 
-✅ Complete
+Follow the steps below to set up the project locally:
 
-Material Design 3
+### ✅ Prerequisites
+Ensure you have:
 
-Modern, responsive, and aesthetically pleasing UI.
-
-✅ Complete
-
-Validation
-
-Prevents adding empty tasks.
-
-✅ Complete
-
-🛠️ Technology Stack
-
-Technology
-
-Role
-
-Framework
-
-Flutter 3.x+
-
-Language
-
-Dart 3.x+
-
-IDE
-
-Android Studio / VS Code
-
-Dependencies
-
-shared_preferences (for asynchronous, persistent data storage)
-
-🚀 Getting Started
-
-These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-
-You need the following software installed:
-
-Flutter SDK (Ensure your Flutter channel is stable.)
-
+```bash
 flutter upgrade
 flutter doctor -v
+And either Android Studio or VS Code with Flutter/Dart extensions installed.
+```
+📥 Installation Steps
 
-
-Android Studio or VS Code with the Flutter and Dart extensions.
-
-Installation Steps
-
-Clone the Repository (or start a new project):
+1️⃣ Create or clone the project
 
 flutter create todo_list_app
 cd todo_list_app
-# Replace content of lib/main.dart with the provided code
+# Replace content of lib/main.dart with the provided code if needed
 
 
-Add Dependencies: Open your pubspec.yaml file and ensure the shared_preferences package is listed under dependencies:
+2️⃣ Add dependency in pubspec.yaml
 
-# pubspec.yaml snippet
 dependencies:
   flutter:
     sdk: flutter
-  shared_preferences: ^2.2.2  # Always use the latest stable version
+  shared_preferences: ^2.2.2
 
 
-Fetch Packages: Run the command to download the new dependency:
+3️⃣ Fetch packages
 
 flutter pub get
 
 
-Run the App: Connect a physical device or launch an emulator, and then execute:
+4️⃣ Run the app
 
 flutter run
 
+📦 Generate APK (Android)
 
-📦 Generating the Installable APK File
+This builds the distributable app installer.
 
-This is the key step to create the final, standalone Android application installer file.
-
-The app-release.apk is the file you can distribute and install on any Android phone directly.
-
-Execute the Build Command: Navigate to the root directory of your project in the terminal and run:
+1️⃣ Build the release APK
 
 flutter build apk --release
 
 
-Location of the APK File: Once the build is successful, the optimized APK file will be located at:
+2️⃣ Output Location
 
 build/app/outputs/flutter-apk/app-release.apk
 
 
-
-
-
-
+You can share & install this .apk on any Android device ✅
 
 📜 License
 
-This project is licensed under the MIT License - see the LICENSE file (if applicable) for details.
+This project is licensed under the MIT License.
+See the LICENSE file for more details.
